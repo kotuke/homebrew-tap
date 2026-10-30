@@ -1,6 +1,6 @@
 cask "lumilo" do
-  version "0.3.1"
-  sha256 "3f3349f215ac738510ab61683f70a56a9e4bc6a5f239a642eb18d001111c62cb"
+  version "0.3.2"
+  sha256 "168d77ae79db6ee7443dcd2a8feef2958fd13d00ea487fb8d88707bcc6be0189"
 
   url "https://github.com/kotuke/lumilo/releases/download/v#{version}/Lumilo.#{version}.arm64.dmg"
   name "Lumilo"
