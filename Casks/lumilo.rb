@@ -1,6 +1,6 @@
 cask "lumilo" do
-  version "0.2.0"
-  sha256 "967e373f4ff5a344c48e71ab54ba8a3cbedc6885702a3e34570f235f9622ed6e"
+  version "0.3.0"
+  sha256 "4e530e145c798a2ca42741078b81d9537d45291870a19cbe4b0a6de7c7d5d150"
 
   url "https://github.com/kotuke/lumilo/releases/download/v#{version}/Lumilo.#{version}.arm64.dmg"
   name "Lumilo"
@@ -12,6 +12,7 @@ cask "lumilo" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :monterey
 
