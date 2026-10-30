@@ -1,10 +1,10 @@
 cask "lumilo" do
-  version "0.1.0"
-  sha256 "20344c4f589737c2af96455fd69be8be3da35787d5220aa55188330495b07a8b"
+  version "0.2.0"
+  sha256 "967e373f4ff5a344c48e71ab54ba8a3cbedc6885702a3e34570f235f9622ed6e"
 
   url "https://github.com/kotuke/lumilo/releases/download/v#{version}/Lumilo.#{version}.arm64.dmg"
   name "Lumilo"
-  desc "Menu-bar panel for local LLM engines: Splash and llama.cpp"
+  desc "Menu-bar panel for local LLM engines: Splash, llama.cpp and TensorFold"
   homepage "https://github.com/kotuke/lumilo"
 
   livecheck do
@@ -12,7 +12,6 @@ cask "lumilo" do
     strategy :github_latest
   end
 
-  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :monterey
 
